@@ -1,0 +1,267 @@
+body{
+    background-image: url("img/bg.jpg");
+}
+
+#secondBg{
+	background-image: url("img/bg2.jpg");
+	background-repeat: no-repeat;
+}
+
+#thirdBg{
+	background-image: url("img/bg3.jpg");
+	background-repeat: no-repeat;
+}
+
+#header{
+	font-family: cursive;
+	color:white;
+	text-align: center;
+	padding:250px;
+}
+
+.mainButton{
+    color:#000000;
+	text-align: left;
+	width:100px;
+    text-align: center;
+    position: absolute;
+    left: 0; 
+    top:0;
+    padding: 1rem;
+}
+
+.mainButton:hover{
+	color:#4484CE;
+}
+
+#footer{
+	color: #ffffff;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0; 
+    padding: 1rem;
+}
+
+#main{
+text-align: center;
+padding:50;
+}
+
+#mainPic{
+    text-align: center;
+}
+
+#mainFooter{
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0; 
+    padding: 1rem;
+}
+
+#first{
+    width: 50px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding:20px;
+}
+
+#second{
+    width: 50px;
+    position: absolute;
+    top: 0px;
+    right: 50px;
+    padding:20px;
+    margin-right: 10px;
+}
+
+#third{
+    width: 50px;
+    position: absolute;
+    top: 0px;
+    right: 100px;
+    padding:20px;
+    margin-right: 20px;
+}
+
+#fourth{
+    width: 150px;
+    position: absolute;
+    top: 40px;
+    right: 280px;
+    padding:20px;
+}
+
+#fifth{
+    width: 150px;
+    position: absolute;
+    top: 60px;
+    right: 160px;
+    margin:-10px;
+    padding:20px;
+}
+
+#footer{
+    color: #ffffff;
+
+    text-align: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0; 
+    padding: 1rem;
+}
+
+#img{
+    width: 150px;
+}
+
+#menu2 ul {
+    color:#000000;
+	text-align: center;
+	width:100px;
+	height:250px;
+    text-align: center;
+    position: absolute;
+    left: 0; 
+    top:35px;
+    padding: 0;
+    list-style-type: none;
+
+}
+#menu2 a {
+  color: #FFFFFF;
+  text-decoration:none;
+}
+#menu2 li {
+  height: 25%;
+  padding-top: 25px;
+}
+#menu2 li:hover {
+  background-color: #F6931C;
+  border-left: 8px #4484CE solid;
+}
+
+#menu2 li a:hover{
+color:#4484CE;
+}
+
+#menu2 li a {
+  font-size: 1.2em;
+}
+#menu2 .currentPage{
+  border-left: 5px #DCB239 solid;
+}
+
+#menu2 h1 {
+  margin: 0px;
+  color: #FFFFFF;
+  text-align: center;
+}
+#menu2 p {
+  padding: 30px;
+}
+
+#login {
+  font-family: 'Century Gothic';
+}
+
+#box{
+      margin: 50px;
+  text-align: center;
+  width: 500px;
+    margin: auto;  
+  position: absolute;
+  left:0;
+  right: 0;
+  top: 150px;
+  bottom: 0;
+}
+
+#login h1 {
+  color: #FF3B3F;
+  text-align: center;
+  margin: 0px;
+}
+
+#login input {
+  border: 0px;
+  border-bottom: 1px #A9A9A9 dashed;
+  padding: 10px;
+  color: #A9A9A9;
+  width: 80%;
+  margin: 10px;
+  font-family: 'Century Gothic';
+}
+
+#login input:focus, #login input:hover {
+  border: 1px #FF3B3F solid;
+}
+
+#login button {
+  background-color: #FF3B3F;
+  border: 0px;
+  border-radius: 2px;
+  color: white;
+  font-size: 0.9em;
+  padding: 10px 20px;
+  margin: 20px;
+  width: 85%;
+  font-family: 'Century Gothic';
+}
+
+#sign {
+  font-family: 'Century Gothic';
+  text-align: center;
+}
+
+#box{
+  margin: 50px;
+  text-align: center;
+  width: 500px;
+    margin: auto;  
+  position: absolute;
+  left:0;
+  right: 0;
+  top: 150px;
+  bottom: 0;
+}
+
+#sign h1 {
+  color: #FF3B3F;
+  text-align: center;
+  margin: 0px;
+}
+
+#sign input {
+  border: 0px;
+  border-bottom: 1px #A9A9A9 dashed;
+  padding: 10px;
+  color: #A9A9A9;
+  width: 80%;
+  margin: 10px;
+  font-family: 'Century Gothic';
+  text-align: center;
+}
+
+#sign input:focus, #sign input:hover {
+  border: 1px #FF3B3F solid;
+}
+
+#sign button {
+  background-color: #FF3B3F;
+  border: 0px;
+  border-radius: 2px;
+  color: white;
+  font-size: 0.9em;
+  padding: 10px 20px;
+  margin: 20px;
+  width: 85%;
+  font-family: 'Century Gothic';
+  text-align: center;
+}
